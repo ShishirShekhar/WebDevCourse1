@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">
+            Username:
+        </label>
+        <!-- set the length of character -->
+        <input 
+            type="text" name="username" 
+            id="name" placeholder="enter your name"
+            maxlength="2"
+        >
+
+        <br>
+
+        <label for="phone">
+            Phone:
+        </label>
+        <input type="number" name="phone" id="phone" placeholder="enter your phone number" max="100" min="10">
+
+        <br>   
+        
+        <label for="email">
+            Email:
+        </label>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+
+        <br>
+
+        <label for="male">
+            male
+        </label>
+        <input type="radio" name="gender" id="male" value="male" >
+
+        <label for="female">
+            female
+        </label>
+        <input type="radio" name="gender" id="female" value="female" >
+
+        <br>
+
+        <label for="promotion">
+            Subscribe Promotion
+        </label>
+        <input type="checkbox" name="promotion" id="promotion">
+
+        <br>
+
+        <label for="training">
+            Subscribe Training
+        </label>
+        <input type="checkbox" name="training" id="training">
+
+        <br>
+
+        <input type="color" name="color" id="color">
+        <input type="date" name="date" id="date">
+
+        <br>
+
+        <!-- select options -->
+        <label for="course">
+            Choose a course:
+        </label>
+
+        <select name="course" id="course">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select>
+
+        <input type="file" name="file" id="file">
+        
+        <br>
+
+        <input type="password" name="password" id="password" placeholder="enter your password" >
+
+        <br>
+
+        <label for="address">Address: </label>
+        <textarea 
+            name="address" 
+            id="address" 
+            cols="10" 
+            rows="10" 
+            placeholder="enter your address"></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
+
+<!-- {
+    username: "shishir"
+} -->
+
+<!-- http://127.0.0.1:5500/contact.html?
+ username=shishir&
+ phone=123123&
+ email=ssp.me.001%40gmail.com&
+ gender=male&
+ promotion=on&
+ training=on -->

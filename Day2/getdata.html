@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form Submission Data</h1>
+    <div id="data-display"></div>
+
+    <script>
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Get all form data
+        const username = urlParams.get('username');
+        const email = urlParams.get('email');
+        const password = urlParams.get('password');
+
+        // Display the data
+        const displayDiv = document.getElementById('data-display');
+
+        if (username || email || password) {
+            displayDiv.innerHTML = `
+                <h2>Received Data:</h2>
+                <p><strong>Username:</strong> ${username || 'Not provided'}</p>
+                <p><strong>Email:</strong> ${email || 'Not provided'}</p>
+                <p><strong>Password:</strong> ${password || 'Not provided'}</p>
+            `;
+        } else {
+            displayDiv.innerHTML = '<p>No data received. Please submit the form first.</p>';
+        }
+    </script>
+</body>
+
+</html>
