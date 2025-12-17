@@ -68,24 +68,24 @@
 
 ### CSS Introduction & Fundamentals
 
-- [ ] What is CSS (Cascading Style Sheets)?
-- [ ] What is the current version of CSS?
+- [x] What is CSS (Cascading Style Sheets)?
+- [x] What is the current version of CSS?
 - [ ] How is CSS different from CSS3?
 - [ ] Recommended CSS frameworks (Tailwind, Bootstrap, Bulma, etc.)
-- [ ] Syntax of CSS
-- [ ] How to add CSS to a webpage
-  - [ ] Inline CSS
-  - [ ] Internal CSS
-  - [ ] External CSS
-- [ ] Which type of CSS holds the highest priority?
-- [ ] How to add comments in CSS
+- [x] Syntax of CSS
+- [x] How to add CSS to a webpage
+  - [x] Inline CSS
+  - [x] Internal CSS
+  - [x] External CSS
+- [x] Which type of CSS holds the highest priority?
+- [x] How to add comments in CSS
 - [ ] Best way to include a CSS file and why use `@import`
 
 ### Selectors & Specificity
 
-- [ ] What are CSS selectors?
-- [ ] Difference between class and id selector
-- [ ] Universal selector
+- [x] What are CSS selectors?
+- [x] Difference between class and id selector
+- [x] Universal selector
 - [ ] Attribute selectors
 - [ ] CSS combinators — descendant, child, sibling
 - [ ] Pseudo-classes
