@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(135, 206, 235);
+    background-color: skyblue;
+    background-color: skyblue;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+.about {
+    font-size: 10px;
+    color: blue;
+}
+
+#job {
+    font-size: 30px;
+    color: green;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#teach {
+    font-size: 20px;
+}
+
+/* #hobbies {
+    background-color: tomato;
+    background-color: rgb(253, 99, 71);
+    background-color: rgba(253, 99, 71, 0.6);
+    background-color: #FF6347;
+    background-color: hsl(9, 100%, 64%);
+} */
+
+input[name="username"] {
+    color: red;
+}
+
+h1, p {
+    font-size: 50px;
+}
+
+
+section > h2 {
+    color: tomato;
+}
+
+section + p {
+    background-color: yellow;
+}

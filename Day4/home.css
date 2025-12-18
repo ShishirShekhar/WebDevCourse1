@@ -1,0 +1,32 @@
+body {
+    font-size: 50px;
+}
+
+/* immediate sibling */
+div + p {
+    color: blue;
+    font-size: 10px;
+}
+
+/* all sibling */
+div ~ p {
+    color: red;
+}
+
+/* child */
+div > p {
+    color: yellow;
+}
+
+/* descendant */
+div p {
+    color: green; 
+}  
+
+#hello {
+    color: orange;
+}
+
+#hello {
+    color: purple !important;
+}

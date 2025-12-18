@@ -86,17 +86,17 @@
 - [x] What are CSS selectors?
 - [x] Difference between class and id selector
 - [x] Universal selector
-- [ ] Attribute selectors
-- [ ] CSS combinators — descendant, child, sibling
+- [x] Attribute selectors
+- [x] CSS combinators — descendant, child, sibling
 - [ ] Pseudo-classes
 - [ ] Pseudo-elements
-- [ ] What is specificity in CSS?
-- [ ] What is `!important` and when (not) to use it
+- [x] What is specificity in CSS?
+- [x] What is `!important` and when (not) to use it
 
 ### CSS Box Model & Layout Basics
 
-- [ ] CSS Box Model (margin, border, padding, content)
-- [ ] Difference between margin and padding
+- [x] CSS Box Model (margin, border, padding, content)
+- [x] Difference between margin and padding
 - [ ] CSS border properties
 - [ ] Difference between border and outline
 - [ ] `margin: 40px 100px 120px 80px` explained
@@ -109,7 +109,7 @@
 
 ### Colours, Backgrounds & Visual Styling
 
-- [ ] CSS colours (HSL, RGB, HEX)
+- [x] CSS colours (HSL, RGB, HEX)
 - [ ] CSS backgrounds and their properties
 - [ ] Text formatting in CSS
 - [ ] Shadow effects — `text-shadow`, `box-shadow`
