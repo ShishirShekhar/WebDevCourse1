@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Demo Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Position Demo</h1>
+        <p>These simple cards are hooks to try different CSS <code>position</code> values. No CSS applied yet.</p>
+    </header>
+
+    <main class="cards">
+        <section class="card position-static">
+            <h2>Static</h2>
+            <p>Default position; element stays in normal document flow.</p>
+            <div class="demo-area">
+                <div class="box">Parent box</div>
+                <span class="marker">Marker (static)</span>
+            </div>
+        </section>
+
+        <section class="card position-relative">
+            <h2>Relative</h2>
+            <p>Can be offset using <code>top/left/right/bottom</code> relative to its normal position.</p>
+            <div class="demo-area">
+                <div class="box">Parent box</div>
+                <span class="marker">Offset me later</span>
+            </div>
+        </section>
+
+        <section class="card position-absolute">
+            <h2>Absolute</h2>
+            <p>Positioned relative to the nearest ancestor that is not <em>static</em>.</p>
+            <div class="demo-area positioned-parent">
+                <div class="box">Positioned parent (make me non-static later)</div>
+                <span class="badge">Place me in a corner</span>
+            </div>
+        </section>
+
+        <section class="card position-fixed">
+            <h2>Fixed</h2>
+            <p>Stays fixed to the viewport (e.g., top-right) while scrolling.</p>
+            <button class="fixed-button" type="button">Fix me to a corner</button>
+        </section>
+
+        <section class="card position-sticky">
+            <h2>Sticky</h2>
+            <p>Behaves like relative until a scroll threshold, then sticks.</p>
+            <div class="demo-area">
+                <h3 class="sticky-header">I can stick to the top</h3>
+                <p>Add CSS later to set <code>position: sticky</code> and a <code>top</code> value.</p>
+                <p>Extra text to enable some scrolling for the demo.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Add your CSS in a separate file to style these cards and demonstrate each position type.</p>
+    </footer>
+    
+</body>
+</html>

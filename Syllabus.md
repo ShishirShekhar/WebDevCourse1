@@ -88,8 +88,8 @@
 - [x] Universal selector
 - [x] Attribute selectors
 - [x] CSS combinators — descendant, child, sibling
-- [ ] Pseudo-classes
-- [ ] Pseudo-elements
+- [x] Pseudo-classes
+- [x] Pseudo-elements
 - [x] What is specificity in CSS?
 - [x] What is `!important` and when (not) to use it
 
@@ -97,15 +97,15 @@
 
 - [x] CSS Box Model (margin, border, padding, content)
 - [x] Difference between margin and padding
-- [ ] CSS border properties
-- [ ] Difference between border and outline
-- [ ] `margin: 40px 100px 120px 80px` explained
-- [ ] `box-sizing` property
-- [ ] CSS `overflow`
-- [ ] CSS `float` property
-- [ ] `display`: `inline`, `block`, `inline-block`
-- [ ] Can elements overlap? → `position` & `z-index`
-- [ ] Positioning — `static`, `relative`, `absolute`, `fixed`, `sticky`
+- [x] CSS border properties
+- [x] Difference between border and outline
+- [x] `margin: 40px 100px 120px 80px` explained
+- [x] `box-sizing` property
+- [x] CSS `overflow`
+- [x] CSS `float` property
+- [x] `display`: `inline`, `block`, `inline-block`
+- [x] Can elements overlap? → `position` & `z-index`
+- [x] Positioning — `static`, `relative`, `absolute`, `fixed`, `sticky`
 
 ### Colours, Backgrounds & Visual Styling
 

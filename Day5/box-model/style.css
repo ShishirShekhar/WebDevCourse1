@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    /* display: flex; */
+    width: 500px;
+    background-color: lightgray;
+    overflow: scroll;
+}
+
+#main {
+    /* float: right; */
+}
+
+body {
+    max-height: 100vh;
+}
+
+div {
+  width: 200px;
+  border: 5px solid black;
+  background-color: lightblue;
+}
+
+.hero {
+    box-sizing: content-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+p + span {
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 150px;
+}
+
+
+.about {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,59 @@
+* {
+    /* box-sizing: border-box; */
+}
+
+button {
+    background-color: lightblue;
+    color: white
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white
+}
+
+input:focus {
+    outline: 2px solid orange;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+p {
+    border: 10px dashed red;
+    border-radius: 20px;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::before {
+    content: "Note: ";
+    font-weight: bold;
+}
+
+p::after {
+    content: " [End of paragraph]";
+    font-style: italic;
+}
+
+p::selection {
+    background: yellow;
+    color: red;
+}
+
+.div {
+    width: 70%;
+    border: 2px solid black;
+    /* margin: 0 auto; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 10px 30px; */
+    padding: 10px 20px 30px 40px;
+
+}
