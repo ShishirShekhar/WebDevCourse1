@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  background-color: lightgray;
+  /* linear gradient */
+  /* background: linear-gradient(
+    to right,
+    red ,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); */
+  /* radial gradient */
+  /* background: radial-gradient(
+    square,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); */
+  /* conic gradient */
+  /* background: conic-gradient(
+    from 180deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); */
+}
+
+#hero {
+  /* min-height: 75vh; */
+  max-width: 600px;
+  margin: 10px auto;
+  background-image: url("https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg");
+  /* background-size: 100px 200px; */
+  /* background-size: auto; */
+  background-size: cover;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 5px 10px 30px black;
+  border-radius: 50px 10px 100px 20px;
+}
+
+.para {
+  /* font-family: cursive, sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 5px 5px 5px darkblue;
+}
+
+#para2 {
+  padding: 50px;
+  color: white;
+  display: none;
+  /* visibility: hidden; */
+}
+
+@media (max-width: 600px) {
+  #para2 {
+    display: block;
+  }
+}

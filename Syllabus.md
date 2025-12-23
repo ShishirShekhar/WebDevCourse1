@@ -110,18 +110,18 @@
 ### Colours, Backgrounds & Visual Styling
 
 - [x] CSS colours (HSL, RGB, HEX)
-- [ ] CSS backgrounds and their properties
-- [ ] Text formatting in CSS
-- [ ] Shadow effects — `text-shadow`, `box-shadow`
-- [ ] List styling → custom list markers (including images)
-- [ ] Borders and `border-radius`
+- [x] CSS backgrounds and their properties
+- [x] Text formatting in CSS
+- [x] Shadow effects — `text-shadow`, `box-shadow`
+- [x] List styling → custom list markers (including images)
+- [x] Borders and `border-radius`
 - [ ] CSS image reflection
-- [ ] CSS gradients (linear, radial, conic)
+- [x] CSS gradients (linear, radial, conic)
 
 ### Advanced Selectors, States & Effects
 
-- [ ] CSS link states — `link`, `hover`, `active`, `visited`
-- [ ] Hide an element — `display: none` vs `visibility: hidden`
+- [x] CSS link states — `link`, `hover`, `active`, `visited`
+- [x] Hide an element — `display: none` vs `visibility: hidden`
 - [ ] Centering content vertically and horizontally (text, images)
 - [ ] CSS counters
 - [ ] Pagination in CSS
