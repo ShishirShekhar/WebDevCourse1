@@ -175,19 +175,20 @@
 
 ### Data Types & Operators
 
-- [ ] JavaScript data types — primitive vs non-primitive
-  - [ ] Primitive types — `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`
-  - [ ] Non-primitive types — `object`, `array`
-- [ ] Type coercion and type conversion
-  - [ ] Truthy and falsy values
-  - [ ] `==` vs `===`
-- [ ] Arithmetic operators — `+`, `-`, `*`, `/`, `%`, `**`
-- [ ] Assignment operators
-- [ ] Comparison operators
-- [ ] Logical operators — `&&`, `||`, `!`
-- [ ] Ternary operator — `? :`
-- [ ] String operators and string concatenation
-- [ ] `typeof` operator
+- [x] JavaScript data types — primitive vs non-primitive
+  - [x] Primitive types — `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`
+  - [x] Non-primitive types — `object`, `array`
+- [x] Type coercion and type conversion
+  - [x] Truthy and falsy values
+  - [x] `==` vs `===`
+- [x] Arithmetic operators — `+`, `-`, `*`, `/`, `%`, `**`
+- [x] Assignment operators
+- [x] Comparison operators
+- [x] Logical operators — `&&`, `||`, `!`
+- [x] Incremental and Decremental
+- [x] Ternary operator — `? :`
+- [x] String operators and string concatenation
+- [x] `typeof` operator
 
 ### Functions
 
