@@ -208,25 +208,25 @@
 
 ### Objects & Arrays
 
-- [ ] What is an object?
-- [ ] Object literals and properties
-- [ ] Accessing object properties — dot notation vs bracket notation
+- [x] What is an object?
+- [x] Object literals and properties
+- [x] Accessing object properties — dot notation vs bracket notation
 - [ ] Methods — functions as object properties
 - [ ] `this` keyword in objects
 - [ ] Object destructuring
 - [ ] Spread operator for objects — `...object`
-- [ ] Arrays — what and why
+- [x] Arrays — what and why
 - [ ] Array methods
-  - [ ] `push()`, `pop()`, `shift()`, `unshift()`
+  - [x] `push()`, `pop()`, `shift()`, `unshift()`
   - [ ] `map()`, `filter()`, `reduce()`
-  - [ ] `find()`, `findIndex()`, `includes()`
-  - [ ] `sort()`, `reverse()`
-  - [ ] `slice()`, `splice()`
-  - [ ] `join()`, `split()`
+  - [x] `find()`, `findIndex()`, `includes()`
+  - [x] `sort()`, `reverse()`
+  - [x] `slice()`, `splice()`
+  - [x] `join()`, `split()`
   - [ ] `forEach()`, `some()`, `every()`
-- [ ] Array destructuring
-- [ ] Spread operator for arrays — `...array`
-- [ ] Multidimensional arrays
+- [x] Array destructuring
+- [x] Spread operator for arrays — `...array`
+- [x] Multidimensional arrays
 
 ### Control Flow & Conditionals
 
